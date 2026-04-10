@@ -17,8 +17,12 @@ const Education: React.FC = () => {
 
 const eduBg = [
   {
-    title: "// TODO: Add your education here",
-    desc: "Update this file with your real education background",
+    title: "AWS Certified Solutions Architect – Associate (SAA-C03)",
+    desc: "Amazon Web Services",
+  },
+  {
+    title: "Specializations",
+    desc: "Kubernetes/GitOps | DevSecOps | Integration (ESB/Kafka/MQ) | Observability (OTel)",
   },
 ];
 

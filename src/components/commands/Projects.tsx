@@ -30,9 +30,7 @@ const Projects: React.FC = () => {
 
   /* ===== check arg is valid ===== */
   const checkArg = () =>
-    isArgInvalid(arg, "go", ["1", "2", "3"]) ? (
-      <Usage cmd="projects" />
-    ) : null;
+    isArgInvalid(arg, "go", ["1", "2", "3"]) ? <Usage cmd="projects" /> : null;
 
   return arg.length > 0 || arg.length > 2 ? (
     checkArg()
@@ -56,15 +54,15 @@ const Projects: React.FC = () => {
 const projects = [
   {
     id: 1,
-    title: "Personal Blog",
-    desc: "My blog on Hashnode where I share DevOps knowledge and experiences.",
-    url: "https://hoazgazh.hashnode.dev/",
+    title: "AI Gate",
+    desc: "Free AI Gateway — Use Claude & GPT as OpenAI-compatible API. Works with Cursor, Cline, Aider, etc.",
+    url: "https://github.com/hoazgazh/aigate",
   },
   {
     id: 2,
-    title: "GitHub Profile",
-    desc: "Check out my open source contributions and projects.",
-    url: "https://github.com/hoazgazh",
+    title: "DevOps Blog",
+    desc: "My blog on Hashnode — DevOps, Kubernetes, Platform Engineering knowledge.",
+    url: "https://hoazgazh.hashnode.dev/",
   },
   {
     id: 3,
